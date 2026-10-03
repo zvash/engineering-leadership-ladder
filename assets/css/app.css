@@ -61,6 +61,9 @@
   --sidebar-w: 268px;
 }
 
+/* Counters, badges and chart labels use the Persian text font in Persian mode. */
+html[lang="fa"] { --font-mono: var(--font-fa); }
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;

@@ -4,31 +4,31 @@
   var KEY = "assess.v1";
 
   var C = {
-    eyebrow: L("Locate", "مکان‌یابی"),
+    eyebrow: L("Locate", "شناخت جایگاه"),
     title: L("Where am I?", "من کجا هستم؟"),
     lede: L(
       "Thirteen questions, one per behaviour. For each, pick the statement that describes what you do consistently — not what you did once. You will get a profile across the three dimensions and a concrete growth edge.",
-      "سیزده پرسش، هر کدام درباره‌ی یک رفتار. برای هر پرسش، جمله‌ای را انتخاب کنید که کار «مستمر» شما را توصیف می‌کند، نه کاری که یک بار انجام داده‌اید. در پایان، نیمرخی از سه بُعد و یک «لبه‌ی رشد» مشخص دریافت می‌کنید."
+      "سیزده پرسش درباره‌ی رفتارهای کاری شما. در هر پرسش، گزینه‌ای را انتخاب کنید که عملکرد مستمر شما را توصیف می‌کند. تجربه‌ای که فقط یک بار داشته‌اید، مبنای مناسبی برای پاسخ نیست. در پایان، وضعیت شما در سه بُعد و اولویت رشدتان مشخص می‌شود."
     ),
     tldr: [
       L("About **five minutes**. Answers stay in this browser only.", "حدود **پنج دقیقه** زمان می‌برد. پاسخ‌ها فقط در همین مرورگر ذخیره می‌شوند."),
-      L("Your **consistent level** is your lowest dimension — the way promotion cases are read.", "**سطح پایدار** شما پایین‌ترین بُعد شماست؛ همان‌طور که پرونده‌های ارتقا خوانده می‌شوند."),
-      L("Bring the **copied summary** to a 1:1 and ask your manager where they would place you.", "**خلاصه‌ی کپی‌شده** را به جلسه‌ی ۱:۱ ببرید و از مدیرتان بپرسید شما را در کجا می‌بیند.")
+      L("Your **consistent level** is your lowest dimension — the way promotion cases are read.", "**سطح پایدار** شما بر اساس پایین‌ترین سطح در میان سه بُعد تعیین می‌شود. در بررسی پرونده‌های ارتقا هم عملکرد شما در همه‌ی ابعاد در نظر گرفته می‌شود."),
+      L("Bring the **copied summary** to a 1:1 and ask your manager where they would place you.", "**خلاصه‌ی نتیجه** را کپی کنید و به جلسه‌ی ۱:۱ ببرید. با مدیرتان درباره‌ی سطحی که در آن کار می‌کنید گفت‌وگو کنید.")
     ],
-    note: L("This is a reflection tool, not an official assessment. Honest answers are more useful than generous ones.", "این یک ابزار تأمل است، نه ارزیابی رسمی. پاسخ صادقانه از پاسخ سخاوتمندانه مفیدتر است."),
+    note: L("This is a reflection tool, not an official assessment. Honest answers are more useful than generous ones.", "این ابزار به شما کمک می‌کند عملکردتان را مرور کنید و جای ارزیابی رسمی را نمی‌گیرد. پاسخ‌ها را بر اساس تجربه‌ی واقعی خود انتخاب کنید تا نتیجه برای برنامه‌ریزی رشدتان مفید باشد."),
     skip: L("Not yet / not sure", "هنوز نه / مطمئن نیستم"),
     progress: L("answered", "پاسخ داده شده"),
     of: L("of", "از"),
-    profile: L("Your profile", "نیمرخ شما"),
-    example: L("Example profile — answer the questions to see yours", "نیمرخ نمونه؛ برای دیدن نیمرخ خودتان به پرسش‌ها پاسخ دهید"),
+    profile: L("Your profile", "نمای عملکرد شما"),
+    example: L("Example profile — answer the questions to see yours", "نمای عملکرد نمونه. برای دیدن وضعیت خودتان به پرسش‌ها پاسخ دهید"),
     needMore: L("Answer at least two questions in each dimension (and the impact question) to see your result.", "برای دیدن نتیجه، در هر بُعد دست‌کم به دو پرسش (و به پرسش اثرگذاری) پاسخ دهید."),
     floor: L("Consistent level", "سطح پایدار"),
-    floorSub: L("your lowest dimension", "پایین‌ترین بُعد شما"),
+    floorSub: L("your lowest dimension", "پایین‌ترین سطح در میان ابعاد"),
     peak: L("Strongest dimension", "قوی‌ترین بُعد"),
-    edge: L("Growth edge", "لبه‌ی رشد"),
-    practise: L("What to practise next", "آن‌چه باید تمرین کنید"),
-    practiseIntro: L("These are the next-level behaviours for the questions where you sit at your floor:", "این‌ها رفتارهای سطح بعد برای پرسش‌هایی است که در آن‌ها در کفِ خود قرار دارید:"),
-    atTop: L("You answered at the top of this ladder in every dimension. Next steps are beyond it: company-level leadership, successors, and industry influence.", "در همه‌ی ابعاد در بالاترین پله‌ی این نردبان پاسخ داده‌اید. گام‌های بعدی فراتر از آن است: راهبری در سطح کل سازمان، پرورش جانشین و اثرگذاری در صنعت."),
+    edge: L("Growth edge", "اولویت رشد"),
+    practise: L("What to practise next", "آنچه باید تمرین کنید"),
+    practiseIntro: L("These are the next-level behaviours for the questions where you sit at your floor:", "در پرسش‌هایی که پایین‌ترین سطح عملکرد شما را نشان می‌دهند، رفتارهای سطح بعد این‌هاست:"),
+    atTop: L("You answered at the top of this ladder in every dimension. Next steps are beyond it: company-level leadership, successors, and industry influence.", "در همه‌ی ابعاد، پاسخ‌هایتان در بالاترین سطح این نردبان قرار می‌گیرد. گام‌های بعدی فراتر از این راهنماست: راهبری کل سازمان، پرورش جانشین و اثرگذاری در صنعت."),
     openNext: L("Open the next level", "مشاهده‌ی سطح بعد"),
     growGuide: L("Transition guide", "راهنمای گذر"),
     copy: L("Copy summary for your 1:1", "کپی خلاصه برای جلسه‌ی ۱:۱"),
@@ -36,64 +36,64 @@
     resetConfirm: L("Click again to confirm", "برای تأیید دوباره کلیک کنید"),
     method: L(
       "How it is computed: for each dimension, the median of your answers (the lower value when two tie). Your consistent level is the lowest dimension, because promotion cases are judged across all of them. The highlighted column is your next level.",
-      "نحوه‌ی محاسبه: برای هر بُعد، میانه‌ی پاسخ‌ها (در صورت تساوی، مقدار پایین‌تر). سطح پایدار شما پایین‌ترین بُعد است، چون پرونده‌های ارتقا در همه‌ی ابعاد بررسی می‌شوند. ستون برجسته، سطح بعدی شماست."
+      "نحوه‌ی محاسبه: برای هر بُعد، میانه‌ی پاسخ‌ها در نظر گرفته می‌شود. اگر دو مقدار میانی وجود داشته باشد، مقدار پایین‌تر انتخاب می‌شود. پایین‌ترین سطح در میان ابعاد، سطح پایدار شماست، چون در بررسی ارتقا همه‌ی ابعاد سنجیده می‌شوند. ستون برجسته، سطح بعدی شما را نشان می‌دهد."
     ),
     summaryHead: L("Self-assessment", "خودارزیابی"),
-    tableTitle: L("Profile as a table", "نیمرخ به صورت جدول"),
+    tableTitle: L("Profile as a table", "جدول وضعیت عملکرد"),
     next: L("Growing to the next level", "رشد تا سطح بعد")
   };
 
   /* One impact question + four per dimension. anchors: [Acting, M2, M3, M4, M5, M6] */
   var Q = [
     { id: "i1", dim: "impact", title: L("Where does the impact of your work show up?", "اثر کار شما کجا دیده می‌شود؟"), a: [
-      L("In tasks and features I help ship.", "در taskها و قابلیت‌هایی که در deliver کردنشان کمک می‌کنم."),
-      L("In my team's commitments, delivered with quality and on time.", "در تعهدات تیمم که باکیفیت و به‌موقع deliver می‌شوند."),
+      L("In tasks and features I help ship.", "در taskها و قابلیت‌هایی که در delivery آن‌ها مشارکت دارم."),
+      L("In my team's commitments, delivered with quality and on time.", "در تعهدات تیمم که باکیفیت و به‌موقع انجام می‌شوند."),
       L("In team goals I defined, with tangible impact for the organisation.", "در اهدافی که برای تیم تعریف کرده‌ام و اثر ملموس سازمانی دارند."),
-      L("In outcomes across several teams, tied to business results.", "در نتایج چند تیم که به نتایج کسب‌وکاری گره خورده‌اند."),
+      L("In outcomes across several teams, tied to business results.", "در خروجی چند تیم که به نتایج کسب‌وکاری مشخص منجر می‌شود."),
       L("In a department's portfolio and its business success.", "در سبد پروژه‌های یک «بخش» و موفقیت کسب‌وکاری آن."),
       L("In company-level results: revenue, cost, markets, P&L.", "در نتایج سطح سازمان: درآمد، هزینه، بازارها و P&L.")] },
     { id: "d1", dim: "delivery", title: L("Goals and roadmap", "اهداف و نقشه‌ی راه"), a: [
-      L("My manager sets goals; I help run the plan.", "مدیرم اهداف را تعیین می‌کند؛ من در اجرای برنامه کمک می‌کنم."),
-      L("I deliver goals set with my manager, on agreed timelines.", "اهدافی را که با مدیرم تعیین شده، در زمان‌بندی توافق‌شده deliver می‌کنم."),
+      L("My manager sets goals; I help run the plan.", "مدیرم اهداف را تعیین می‌کند. من در اجرای برنامه کمک می‌کنم."),
+      L("I deliver goals set with my manager, on agreed timelines.", "اهدافی را که با مدیرم تعیین کرده‌ایم، در زمان‌بندی توافق‌شده به نتیجه می‌رسانم."),
       L("I define my team's goals and roadmap with light review.", "اهداف و نقشه‌ی راه تیمم را با حداقل نظارت تعریف می‌کنم."),
       L("I set multi-quarter strategy across teams and run cross-team projects.", "استراتژی چندفصلی را در سطح چند تیم تعیین و پروژه‌های فراتیمی را اجرا می‌کنم."),
       L("I own a department portfolio and create strategies for new problems or markets.", "مالک سبد پروژه‌های یک «بخش» هستم و برای مسائل یا بازارهای جدید استراتژی می‌سازم."),
       L("I help set company strategy and own core company objectives.", "در تدوین استراتژی سازمان نقش دارم و مالک objectiveهای کلان هستم.")] },
     { id: "d2", dim: "delivery", title: L("Problems and ambiguity", "مسائل و ابهام"), a: [
       L("I solve problems as they come, with help.", "مسائل را همان‌طور که پیش می‌آیند، با کمک دیگران حل می‌کنم."),
-      L("I own problems in my team's area and escalate early.", "مالک مسائل حوزه‌ی تیمم هستم و زود escalate می‌کنم."),
-      L("I find and fix risks to our users, even outside my team's services.", "ریسک‌های کاربرانمان را پیدا و رفع می‌کنم، حتی خارج از سرویس‌های تیمم."),
-      L("I define problems nobody has framed yet and turn ambiguity into plans.", "مسائلی را تعریف می‌کنم که هنوز کسی صورت‌بندی‌شان نکرده و ابهام را به برنامه تبدیل می‌کنم."),
+      L("I own problems in my team's area and escalate early.", "مسئولیت مسائل حوزه‌ی تیمم را می‌پذیرم و در صورت نیاز، به‌موقع escalate می‌کنم."),
+      L("I find and fix risks to our users, even outside my team's services.", "ریسک‌های تجربه‌ی کاربران را شناسایی و رفع می‌کنم، حتی اگر منشأ آن‌ها خارج از سرویس‌های تیمم باشد."),
+      L("I define problems nobody has framed yet and turn ambiguity into plans.", "مسائل مبهم را روشن می‌کنم و برای حل آن‌ها برنامه‌ی عملی تدوین می‌کنم."),
       L("I anticipate my department's future challenges and plan for them.", "چالش‌های آینده‌ی «بخش» را پیش‌بینی و برایشان برنامه‌ریزی می‌کنم."),
       L("I take on company-level problems: markets, profitability, cost.", "مسائل سطح سازمان را بر عهده می‌گیرم: بازار، سودآوری و هزینه.")] },
     { id: "d3", dim: "delivery", title: L("Quality and operations", "کیفیت و عملیات"), a: [
       L("I follow the team's quality practices.", "از رویه‌های کیفیت تیم پیروی می‌کنم."),
-      L("I treat on-call, uptime and quality as mine, with urgency.", "on-call، بالا بودن سرویس و کیفیت را مسئولیت خودم می‌دانم و با فوریت پیگیری می‌کنم."),
+      L("I treat on-call, uptime and quality as mine, with urgency.", "مسئولیت on-call، در دسترس بودن سرویس‌ها و کیفیت را می‌پذیرم و مسائل آن‌ها را فوری پیگیری می‌کنم."),
       L("I balance short-term delivery and long-term technical health with sound judgment.", "میان delivery کوتاه‌مدت و سلامت فنی بلندمدت با قضاوت درست تعادل برقرار می‌کنم."),
       L("I improve engineering processes across my department.", "فرآیندهای مهندسی را در سطح «بخش» بهبود می‌دهم."),
       L("I design processes that lift productivity across teams, and track them to results.", "فرآیندهایی طراحی می‌کنم که بهره‌وری تیم‌ها را بالا می‌برد و تا نتیجه پیگیرشان هستم."),
       L("I build org-wide mechanisms for continuous improvement.", "سازوکارهایی در سطح سازمان برای بهبود مستمر می‌سازم.")] },
-    { id: "d4", dim: "delivery", title: L("Technical engagement", "درگیری فنی"), a: [
+    { id: "d4", dim: "delivery", title: L("Technical engagement", "مشارکت فنی"), a: [
       L("I still do much of the hands-on work myself.", "هنوز بخش زیادی از کار فنی را خودم انجام می‌دهم."),
-      L("I contribute technically, but the team — not me — carries delivery.", "مشارکت فنی دارم، اما بار delivery را تیم می‌برد، نه من."),
-      L("I break hard problems down and drive them with senior engineers.", "مسائل سخت را می‌شکنم و در کنار مهندسان ارشد پیش می‌برم."),
+      L("I contribute technically, but the team — not me — carries delivery.", "در کار فنی مشارکت دارم و delivery را با اتکا به اجرای تیم پیش می‌برم."),
+      L("I break hard problems down and drive them with senior engineers.", "مسائل سخت را به بخش‌های قابل حل تقسیم می‌کنم و همراه با مهندسان ارشد پیش می‌برم."),
       L("I technically lead staff-level engineers and steer architecture across teams.", "مهندسان سطح Staff را از نظر فنی راهبری می‌کنم و معماری چند تیم را جهت می‌دهم."),
       L("I shape technical strategy through the leaders I hire and the reviews I run.", "استراتژی فنی را از طریق رهبرانی که جذب می‌کنم و reviewهایی که برگزار می‌کنم شکل می‌دهم."),
-      L("I set company-wide technical direction and choose the big bets.", "جهت فنی سازمان را تعیین می‌کنم و شرط‌های بزرگ را انتخاب می‌کنم.")] },
+      L("I set company-wide technical direction and choose the big bets.", "جهت فنی سازمان را تعیین می‌کنم و درباره‌ی سرمایه‌گذاری‌های بزرگ فنی تصمیم می‌گیرم.")] },
     { id: "p1", dim: "people", title: L("Feedback and performance", "بازخورد و عملکرد"), a: [
       L("I'm learning to hold 1:1s and give feedback.", "در حال یادگیری برگزاری ۱:۱ و دادن بازخورد هستم."),
-      L("I give regular, specific feedback; nobody is surprised at review time.", "بازخورد منظم و مشخص می‌دهم؛ هیچ‌کس در زمان ارزیابی غافل‌گیر نمی‌شود."),
+      L("I give regular, specific feedback; nobody is surprised at review time.", "بازخورد منظم و مشخص می‌دهم تا افراد پیش از ارزیابی بدانند چه انتظاری از آن‌ها می‌رود و عملکردشان چگونه است."),
       L("I set clear expectations and hold transparent career conversations with each person.", "انتظارات روشن تعیین می‌کنم و با هر فرد گفت‌وگوی شفاف درباره‌ی مسیر شغلی دارم."),
       L("I coach managers and tech leads on feedback and performance.", "مدیران و راهبران فنی را در بازخورد و مدیریت عملکرد coach می‌کنم."),
       L("I guard the quality and fairness of performance processes across my department.", "از کیفیت و انصاف فرآیندهای مدیریت عملکرد در «بخش» صیانت می‌کنم."),
       L("I shape how the whole organisation develops and evaluates people.", "نحوه‌ی توسعه و ارزیابی افراد در کل سازمان را شکل می‌دهم.")] },
     { id: "p2", dim: "people", title: L("Growth", "رشد"), a: [
       L("I help people informally when they ask.", "وقتی کسی بخواهد، به‌صورت غیررسمی کمکش می‌کنم."),
-      L("I know each person's strengths and growth areas and coach them technically.", "نقاط قوت و قابل‌بهبود هر فرد را می‌شناسم و در امور فنی راهنمایی‌اش می‌کنم."),
-      L("I draw growth paths and make it safe to grow.", "مسیر رشد ترسیم می‌کنم و فضایی امن برای رشد می‌سازم."),
-      L("I give stretch assignments and have a track record of people stepping up.", "کارهای فراتر از سطح می‌سپارم و کارنامه‌ای از رشد افراد به مسئولیت‌های بزرگ‌تر دارم."),
+      L("I know each person's strengths and growth areas and coach them technically.", "نقاط قوت و زمینه‌های بهبود هر فرد را می‌شناسم و در کار فنی راهنمایی‌اش می‌کنم."),
+      L("I draw growth paths and make it safe to grow.", "برای افراد مسیر رشد مشخص می‌کنم و شرایطی فراهم می‌کنم که با احساس امنیت بتوانند تجربه کسب کنند و یاد بگیرند."),
+      L("I give stretch assignments and have a track record of people stepping up.", "مسئولیت‌های چالش‌برانگیز می‌سپارم و شواهدی دارم که نشان می‌دهد افراد با حمایت من، مسئولیت‌های بزرگ‌تری گرفته‌اند."),
       L("I set department-wide growth goals: knowledge sharing, fair access to opportunities.", "اهداف رشد را در سطح «بخش» تعیین می‌کنم: اشتراک دانش و توزیع عادلانه‌ی فرصت‌ها."),
-      L("I build learning and leadership capacity across the company.", "ظرفیت یادگیری و راهبری را در کل سازمان می‌سازم.")] },
+      L("I build learning and leadership capacity across the company.", "ظرفیت یادگیری و راهبری را در کل سازمان افزایش می‌دهم.")] },
     { id: "p3", dim: "people", title: L("Leaders and succession", "رهبرپروری و جانشینی"), a: [
       L("I focus on my own transition into the role.", "روی گذار خودم به این نقش تمرکز دارم."),
       L("I help engineers take ownership of parts of our work.", "به مهندسان کمک می‌کنم مالکیت بخش‌هایی از کار را بر عهده بگیرند."),
@@ -103,39 +103,39 @@
       L("I hire and grow directors, and every key role has a successor.", "Directorها را جذب و پرورش می‌دهم و برای هر نقش کلیدی جانشین دارم.")] },
     { id: "p4", dim: "people", title: L("Delegation", "تفویض"), a: [
       L("I often do tasks myself because it's faster.", "اغلب کارها را خودم انجام می‌دهم چون سریع‌تر است."),
-      L("I delegate tasks with a clear definition of done.", "taskها را با تعریف روشن از «انجام‌شده» تفویض می‌کنم."),
-      L("I delegate outcomes, not just tasks.", "نتیجه را تفویض می‌کنم، نه فقط task را."),
-      L("I delegate without fear and manage risk with checkpoints.", "بی‌هراس تفویض می‌کنم و ریسک را با نقاط پایش مدیریت می‌کنم."),
-      L("I delegate whole areas to managers and hold them accountable.", "کل حوزه‌ها را به مدیران تفویض می‌کنم و آن‌ها را پاسخ‌گو نگه می‌دارم."),
+      L("I delegate tasks with a clear definition of done.", "taskها را با تعریف روشن از معیار تکمیل، تفویض می‌کنم."),
+      L("I delegate outcomes, not just tasks.", "مسئولیت رسیدن به نتیجه را همراه با اختیار لازم به افراد واگذار می‌کنم."),
+      L("I delegate without fear and manage risk with checkpoints.", "با اطمینان تفویض می‌کنم و ریسک‌ها را با نقاط بررسی مشخص مدیریت می‌کنم."),
+      L("I delegate whole areas to managers and hold them accountable.", "مسئولیت کامل حوزه‌ها را به مدیران می‌سپارم و از آن‌ها درباره‌ی نتیجه پاسخ می‌خواهم."),
       L("I delegate strategy execution across the org and focus on direction.", "اجرای استراتژی را در سطح سازمان تفویض می‌کنم و بر جهت‌دهی تمرکز دارم.")] },
     { id: "t1", dim: "team", title: L("Hiring and roles", "جذب و نقش‌ها"), a: [
       L("I take part in interviews.", "در مصاحبه‌ها شرکت می‌کنم."),
-      L("I own hiring for my team, to the technical and cultural bar.", "مالک جذب تیمم هستم و بر اساس معیار فنی و فرهنگی جذب می‌کنم."),
+      L("I own hiring for my team, to the technical and cultural bar.", "مسئول جذب برای تیمم هستم و افراد را بر اساس توان‌مندی فنی و معیارهای فرهنگی انتخاب می‌کنم."),
       L("I shape my team's composition and improve our hiring loop.", "ترکیب تیمم را شکل می‌دهم و فرآیند جذبمان را بهبود می‌دهم."),
       L("I identify the roles and skills our teams need and improve hiring across the department.", "نقش‌ها و مهارت‌های مورد نیاز تیم‌ها را شناسایی و جذب را در سطح «بخش» بهبود می‌دهم."),
       L("I lead strategic hiring and org design for my department.", "جذب‌های استراتژیک و طراحی سازمان را در «بخش» خود هدایت می‌کنم."),
       L("I hire senior leaders and shape the organisation's structure.", "مدیران ارشد را جذب می‌کنم و ساختار سازمان را شکل می‌دهم.")] },
     { id: "t2", dim: "team", title: L("Culture and safety", "فرهنگ و ایمنی روانی"), a: [
       L("I keep good relationships and earn the team's trust.", "روابط خوبی دارم و اعتماد تیم را جلب می‌کنم."),
-      L("The team accepts me as its leader; I handle conflicts early.", "تیم مرا به عنوان راهبر پذیرفته است؛ تعارض‌ها را زود مدیریت می‌کنم."),
+      L("The team accepts me as its leader; I handle conflicts early.", "تیم مرا به عنوان راهبر پذیرفته است. تعارض‌ها را زود مدیریت می‌کنم."),
       L("I guard team culture: I spot toxic patterns and resolve conflicts fast.", "از فرهنگ تیم صیانت می‌کنم: الگوهای سمی را تشخیص می‌دهم و تعارض‌ها را سریع حل می‌کنم."),
-      L("I build inclusion, psychological safety and a vision that gives meaning.", "فراگیری، ایمنی روانی و دورنمایی معنابخش می‌سازم."),
+      L("I build inclusion, psychological safety and a vision that gives meaning.", "فضایی فراگیر و دارای ایمنی روانی ایجاد می‌کنم و دورنمایی به تیم می‌دهم که به کارشان معنا ببخشد."),
       L("I own culture and engagement metrics for my department.", "مالک فرهنگ و شاخص‌های تعلق شغلی «بخش» خود هستم."),
       L("I model and institutionalise the company's culture and ways of working.", "الگوی فرهنگ سازمان هستم و آن را همراه با راه‌ورسم کاری نهادینه می‌کنم.")] },
     { id: "t3", dim: "team", title: L("Relationships and alignment", "روابط و هم‌سویی"), a: [
-      L("I work well with my direct counterparts.", "با هم‌تایان مستقیمم به‌خوبی کار می‌کنم."),
+      L("I work well with my direct counterparts.", "با همتایان مستقیمم به‌خوبی کار می‌کنم."),
       L("I have a constructive relationship with my PM and stakeholders.", "با PM و ذی‌نفعانم رابطه‌ی سازنده دارم."),
-      L("I build excellent relationships with other teams and align timelines.", "با تیم‌های دیگر روابط متعالی می‌سازم و زمان‌بندی‌ها را هم‌سو می‌کنم."),
-      L("I lead across groups when priorities compete, aligning outcomes with the org's interest.", "وقتی اولویت‌ها رقیب‌اند، در میان گروه‌ها رهبری می‌کنم و نتایج را با منافع سازمان هم‌سو می‌کنم."),
-      L("I create alignment up, down and sideways, and influence senior leaders.", "در همه‌ی جهات هم‌سویی ایجاد می‌کنم و بر راهبران ارشد اثر می‌گذارم."),
+      L("I build excellent relationships with other teams and align timelines.", "با تیم‌های دیگر روابط کاری سازنده و قابل اتکا می‌سازم و زمان‌بندی‌ها را هم‌سو می‌کنم."),
+      L("I lead across groups when priorities compete, aligning outcomes with the org's interest.", "بین گروه‌هایی با اولویت‌های متعارض، راهبری و هم‌سویی ایجاد می‌کنم تا نتیجه به نفع سازمان باشد."),
+      L("I create alignment up, down and sideways, and influence senior leaders.", "با مدیران، همتایان و تیم‌های زیرمجموعه هم‌سویی ایجاد می‌کنم و بر راهبران ارشد اثر می‌گذارم."),
       L("I align the organisation's middle layers with company goals.", "لایه‌های میانی سازمان را با اهداف کلان هم‌سو می‌کنم.")] },
     { id: "t4", dim: "team", title: L("Resilience and well-being", "تاب‌آوری و به‌زیستی"), a: [
       L("I keep the team informed during changes.", "در زمان تغییرات، تیم را در جریان نگه می‌دارم."),
       L("I measure team health with the right metrics and act on it.", "سلامت تیم را با metricهای درست می‌سنجم و بر اساس آن اقدام می‌کنم."),
       L("I use engagement data and keep the team effective in unplanned situations.", "از داده‌های تعلق شغلی استفاده می‌کنم و کارایی تیم را در موقعیت‌های پیش‌بینی‌نشده حفظ می‌کنم."),
       L("I remove human single points of failure — including me — and protect well-being.", "SPoFهای انسانی (از جمله خودم) را حذف می‌کنم و از به‌زیستی افراد صیانت می‌کنم."),
-      L("I build change-resilient teams and scale them as needs change.", "تیم‌هایی تاب‌آور در برابر تغییر می‌سازم و متناسب با نیاز مقیاسشان می‌دهم."),
-      L("I build an organisation that adapts and improves on its own.", "سازمانی می‌سازم که خودبه‌خود تطبیق پیدا می‌کند و بهتر می‌شود.")] }
+      L("I build change-resilient teams and scale them as needs change.", "تیم‌هایی می‌سازم که با تغییرات سازگار شوند و متناسب با نیاز، ساختار و اندازه‌شان را تغییر می‌دهم."),
+      L("I build an organisation that adapts and improves on its own.", "سازمانی می‌سازم که توان سازگاری و بهبود مستمر داشته باشد.")] }
   ];
   var DIMS = ["impact", "delivery", "people", "team"];
   var EXAMPLE = { i1: 2, d1: 2, d2: 3, d3: 2, d4: 3, p1: 1, p2: 2, p3: 1, p4: 1, t1: 2, t2: 2, t3: 3, t4: 2 };

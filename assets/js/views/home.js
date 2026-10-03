@@ -3,63 +3,63 @@
   var G = window.ELG, L = G.L, t = G.t, md = G.md, icon = G.icon, UI = G.ui;
 
   var C = {
-    eyebrow: L("A field guide for ICs, tech leads and engineering managers", "راهنمای میدانی برای مشارکت‌کنندگان فردی، راهبران فنی و مدیران مهندسی"),
-    title: L("Every rung answers a bigger question.", "هر پله، پاسخی به پرسشی بزرگ‌تر است."),
+    eyebrow: L("A field guide for ICs, tech leads and engineering managers", "راهنمای کاربردی برای ICها، راهبران فنی و مدیران مهندسی"),
+    title: L("Every rung answers a bigger question.", "در هر سطح چه انتظاری از شما می‌رود؟"),
     lede: L(
       "See how engineering leadership levels work across the industry, find where you operate today, and grow with practical steps, real-world scenarios and tools — or change companies without losing a level.",
-      "ببینید سطوح راهبری مهندسی در صنعت چگونه کار می‌کنند، جایگاه امروزتان را پیدا کنید و با گام‌های عملی، سناریوهای واقعی و ابزارهای کاربردی رشد کنید؛ یا بدون از دست دادن سطح، سازمانتان را عوض کنید."
+      "در این راهنما با سطوح راهبری مهندسی در شرکت‌های مختلف آشنا می‌شوید و عملکرد فعلی خود را با انتظارات هر سطح مقایسه می‌کنید. برای رشد به سطح بعد، تمرین‌ها، سناریوها و ابزارهایی در اختیار دارید. درباره‌ی حفظ سطح شغلی هنگام تغییر شرکت هم راهنمایی می‌گیرید."
     ),
-    ctaAssess: L("Find where you are", "جایگاهم را پیدا کن"),
-    ctaLevels: L("Explore the levels", "سطوح را ببین"),
+    ctaAssess: L("Find where you are", "جایگاهم را پیدا کنم"),
+    ctaLevels: L("Explore the levels", "آشنایی با سطوح"),
     ladderTitle: L("The question at each rung", "پرسشِ هر پله"),
     ladderHint: L("Select a rung to open that level.", "برای باز کردن هر سطح، روی پله‌ی آن کلیک کنید."),
     you: L("You", "شما"),
     pathsTitle: L("Pick your path", "مسیرتان را انتخاب کنید"),
-    pathsIntro: L("Five common starting points. Each suggests three stops, in order.", "پنج نقطه‌ی شروع رایج؛ هر کدام سه ایستگاه را به ترتیب پیشنهاد می‌کند."),
-    principlesTitle: L("Six ideas that run through this guide", "شش ایده که در سراسر این راهنما تکرار می‌شوند"),
+    pathsIntro: L("Five common starting points. Each suggests three stops, in order.", "با توجه به وضعیت فعلی خود، یکی از این پنج مسیر را انتخاب کنید و سه بخش پیشنهادی آن را به ترتیب بخوانید."),
+    principlesTitle: L("Six ideas that run through this guide", "شش اصلِ این راهنما"),
     readTitle: L("How to read the level codes", "کدهای سطح را چگونه بخوانیم"),
     read: L(
       "This guide uses a neutral **reference ladder**: an acting (trial) period and five management levels coded `M2`–`M6`, beside a six-level IC track coded `L3`–`L8`. Companies number levels differently — a first-line manager is typically M1 at Meta, L6 at Google and level 50 at Monzo. [How leveling works](#/map) translates between them.",
-      "این راهنما از یک **نردبان مرجعِ** خنثی استفاده می‌کند: یک دوره‌ی آزمایشی (acting) و پنج سطح مدیریتی با کدهای `M2` تا `M6`، در کنار مسیر شش‌سطحی IC با کدهای `L3` تا `L8`. شرکت‌ها سطوح را متفاوت شماره‌گذاری می‌کنند؛ برای نمونه، مدیر خط اول در Meta معمولاً M1، در Google سطح L6 و در Monzo سطح ۵۰ است. صفحه‌ی [سازوکار سطح‌بندی](#/map) این کدها را به هم ترجمه می‌کند."
+      "این راهنما از یک **نردبان مرجع** مستقل از شرکت‌ها استفاده می‌کند: یک دوره‌ی آزمایشی (acting) و پنج سطح مدیریتی با کدهای `M2` تا `M6`، در کنار مسیر شش‌سطحی IC با کدهای `L3` تا `L8`. شماره‌گذاری سطوح در شرکت‌ها متفاوت است. مثلاً مدیر مستقیم یک تیم در Meta معمولاً M1، در Google سطح L6 و در Monzo سطح ۵۰ است. در صفحه‌ی [سازوکار سطح‌بندی](#/map) می‌توانید معادل این سطوح را پیدا کنید."
     ),
-    builtTitle: L("What this guide is built on", "این راهنما بر چه پایه‌ای ساخته شده است"),
+    builtTitle: L("What this guide is built on", "مبنای این راهنما چیست؟"),
     built: L(
       "A detailed three-dimension management ladder (delivery & ownership, people growth, team building, under the umbrella of impact), enriched with public career frameworks (Dropbox, GitLab, Monzo, Lara Hogan), published research (Google's Project Oxygen and Aristotle, Gallup, DORA) and practitioner writing on leveling and hiring. Examples and people in stories are illustrative composites.",
-      "یک نردبان مدیریتی سه‌بُعدی و دقیق (تحویل خروجی و مالکیت، رشد افراد و تیم‌سازی، زیر چتر اثرگذاری) که با چارچوب‌های شغلی عمومی (Dropbox، GitLab، Monzo، Lara Hogan)، پژوهش‌های منتشرشده (Project Oxygen و Aristotle گوگل، Gallup، DORA) و نوشته‌های متخصصان درباره‌ی سطح‌بندی و استخدام غنی شده است. مثال‌ها و افراد داستان‌ها، ترکیبی و توضیحی هستند."
+      "مبنای این راهنما، یک نردبان مدیریتی با سه بُعدِ تحویل خروجی و مالکیت، رشد افراد و تیم‌سازی است که همگی زیر چتر اثرگذاری سنجیده می‌شوند. چارچوب‌های شغلی منتشرشده‌ی Dropbox، GitLab، Monzo و Lara Hogan، پژوهش‌هایی مثل Project Oxygen و Aristotle در Google، Gallup و DORA، و تجربه‌های متخصصان درباره‌ی سطح‌بندی و استخدام نیز به آن اضافه شده‌اند. مثال‌ها و شخصیت‌های داستان‌ها فرضی‌اند و از ترکیب تجربه‌های واقعی ساخته شده‌اند."
     )
   };
 
   var personas = [
     { icon: "user", title: L("I'm an engineer thinking about management", "مهندسی هستم که به مدیریت فکر می‌کنم"),
-      body: L("Understand what the job really is before you try it, and how a reversible trial period works.", "پیش از امتحان کردن، بفهمید این نقش واقعاً چیست و دوره‌ی آزمایشیِ برگشت‌پذیر چگونه کار می‌کند."),
+      body: L("Understand what the job really is before you try it, and how a reversible trial period works.", "با مسئولیت‌های مدیریت و نحوه‌ی اجرای دوره‌ی آزمایشی آشنا شوید تا با شناخت بهتری این نقش را امتحان کنید. در پایان دوره می‌توانید به مسیر IC برگردید."),
       route: [["paths", L("IC or manager?", "IC یا مدیر؟")], ["levels/A", L("The acting period", "دوره‌ی آزمایشی")], ["scenarios", L("Scenarios", "سناریوها")]] },
     { icon: "rocket", title: L("I'm a new manager (first two years)", "مدیر تازه‌کار هستم (دو سال نخست)"),
-      body: L("Get the fundamentals right — 1:1s, feedback, delivery — and avoid the traps that catch most new managers.", "اصول پایه را درست بنا کنید (۱:۱، بازخورد، delivery) و از تله‌هایی که بیشتر مدیران تازه‌کار در آن می‌افتند دوری کنید."),
+      body: L("Get the fundamentals right — 1:1s, feedback, delivery — and avoid the traps that catch most new managers.", "اصول پایه‌ی مدیریت را درست یاد بگیرید و اجرا کنید (۱:۱، بازخورد، delivery) و تله‌های رایج مدیران تازه‌کار را بشناسید."),
       route: [["levels/M2", L("Level M2", "سطح M2")], ["toolkit", L("Toolkit", "جعبه‌ابزار")], ["scenarios", L("Scenarios", "سناریوها")]] },
-    { icon: "trend", title: L("I'm an experienced EM aiming higher", "EM باتجربه‌ای هستم که هدف بالاتری دارم"),
+    { icon: "trend", title: L("I'm an experienced EM aiming higher", "EM باتجربه‌ای هستم و می‌خواهم به سطح بالاتر برسم"),
       body: L("See exactly what changes at the next rung, and how promotion cases are really judged.", "دقیقاً ببینید در پله‌ی بعد چه تغییر می‌کند و پرونده‌های ارتقا در عمل چگونه ارزیابی می‌شوند."),
       route: [["assess", L("Where am I?", "من کجا هستم؟")], ["grow", L("Growing", "رشد")], ["levels/M4", L("Level M4", "سطح M4")]] },
     { icon: "users", title: L("I manage managers — or soon will", "مدیرِ مدیران هستم (یا به‌زودی می‌شوم)"),
-      body: L("Shift from running teams to shaping organisations, culture and strategy — in a flatter industry.", "از اداره‌ی تیم‌ها به شکل‌دادن سازمان، فرهنگ و استراتژی گذر کنید؛ آن هم در صنعتی که لایه‌های مدیریتی‌اش کم‌تر می‌شود."),
+      body: L("Shift from running teams to shaping organisations, culture and strategy — in a flatter industry.", "با کم‌شدن لایه‌های مدیریتی، نقش شما در طراحی سازمان، شکل دادن به فرهنگ و تدوین استراتژی بیشتر می‌شود. انتظارات این مرحله را بشناسید."),
       route: [["levels/M5", L("Level M5", "سطح M5")], ["grow", L("Growing", "رشد")], ["landscape", L("2026 landscape", "چشم‌انداز ۲۰۲۶")]] },
-    { icon: "briefcase", title: L("I'm interviewing or changing companies", "در حال مصاحبه یا تغییر شرکت هستم"),
-      body: L("Translate your title, prove your scope, and settle the level before the salary.", "عنوان شغلی‌تان را ترجمه کنید، دامنه‌ی اثرتان را اثبات کنید و پیش از حقوق، درباره‌ی سطح به توافق برسید."),
-      route: [["map", L("Translate levels", "ترجمه‌ی سطوح")], ["hiring", L("Hiring", "استخدام")], ["faq", L("Questions", "پرسش‌ها")]] }
+    { icon: "briefcase", title: L("I'm interviewing or changing companies", "در حال مصاحبه یا تغییر محل کار هستم"),
+      body: L("Translate your title, prove your scope, and settle the level before the salary.", "معادل عنوان شغلی‌تان را پیدا کنید، دامنه‌ی مسئولیت و اثرگذاری‌تان را نشان دهید و پیش از مذاکره درباره‌ی حقوق، بر سر سطح توافق کنید."),
+      route: [["map", L("Translate levels", "معادل‌سازی سطوح")], ["hiring", L("Hiring", "استخدام")], ["faq", L("Questions", "پرسش‌ها")]] }
   ];
 
   var principles = [
-    { t: L("Impact is the umbrella.", "اثرگذاری، چتر همه‌ی ابعاد است."),
-      b: L("Every dimension is judged by its effect on business priorities. Delivery that creates impact is the gate; without it, nothing else can be assessed.", "هر بُعد با اثرش بر اولویت‌های کسب‌وکار سنجیده می‌شود. delivery منجر به impact دروازه‌ی ورود است؛ بدون آن، هیچ شاخصه‌ی دیگری قابل بررسی نیست.") },
-    { t: L("Management is a responsibility, not a reward.", "مدیریت یک مسئولیت است، نه امتیاز یا قدرت."),
-      b: L("It is a different job that needs different skills. You never need it to grow: the IC ladder climbs just as high, and moving between the two is lateral.", "مدیریت شغلی متفاوت با مهارت‌های متفاوت است. برای رشد نیازی به آن ندارید: نردبان IC هم به همان ارتفاع می‌رسد و جابه‌جایی میان دو مسیر، افقی است.") },
-    { t: L("Levels measure scope, not years.", "سطح، دامنه‌ی اثر را می‌سنجد، نه سابقه را."),
-      b: L("Scope, autonomy, ambiguity, time horizon and leverage define a level. Years of experience and team size are weak proxies.", "دامنه‌ی اثر، استقلال، ابهام، افق زمانی و اهرم اثرگذاری سطح را تعریف می‌کنند. سال‌های سابقه و اندازه‌ی تیم، شاخص‌های ضعیفی هستند.") },
-    { t: L("You are promoted for the level you already operate at.", "ارتقا، تأیید سطحی است که از قبل در آن عمل می‌کنید."),
-      b: L("Committees look for sustained next-level evidence — usually two quarters or more. Doing your current level very well is necessary, not sufficient.", "کمیته‌ها به دنبال شواهد پایدار از عملکرد در سطح بعد هستند؛ معمولاً دو فصل یا بیشتر. انجام عالی کارهای سطح فعلی لازم است، اما کافی نیست.") },
-    { t: L("Your floor matters more than your peak.", "کفِ عملکرد شما از اوج آن مهم‌تر است."),
-      b: L("Promotion cases are judged across every dimension. One brilliant dimension rarely makes up for a weak one.", "پرونده‌های ارتقا در همه‌ی ابعاد بررسی می‌شوند. درخشش در یک بُعد، به‌ندرت ضعف در بُعد دیگر را جبران می‌کند.") },
-    { t: L("Your hiring level sets your trajectory.", "سطحی که با آن استخدام می‌شوید، مسیرتان را تعیین می‌کند."),
-      b: L("Getting the right level at hire takes weeks; earning it back through promotion takes years. Settle the level before the salary.", "گرفتن سطح درست در زمان استخدام چند هفته زمان می‌برد؛ به دست آوردن دوباره‌ی آن از راه ارتقا، چند سال. پیش از حقوق، درباره‌ی سطح توافق کنید."),
+    { t: L("Impact is the umbrella.", "همه‌ی ابعاد با توجه به اثرگذاری سنجیده می‌شوند."),
+      b: L("Every dimension is judged by its effect on business priorities. Delivery that creates impact is the gate; without it, nothing else can be assessed.", "در بررسی عملکرد، هر بُعد در کنار اثر آن بر اولویت‌های کسب‌وکار سنجیده می‌شود. بدون delivery منجر به impact، سایر شاخصه‌های نردبان قابل بررسی نیستند.") },
+    { t: L("Management is a responsibility, not a reward.", "مدیریت را به عنوان یک مسئولیت می‌پذیرید."),
+      b: L("It is a different job that needs different skills. You never need it to grow: the IC ladder climbs just as high, and moving between the two is lateral.", "مسیر مدیریت مستقل از مسیر IC است و به مهارت‌ها و اثربخشی متفاوتی نیاز دارد. برای رشد در مسیر IC نیازی به مدیر شدن ندارید و در صورت جابه‌جایی میان دو مسیر، سطح شما از طریق نگاشت به سطح معادل تعیین می‌شود.") },
+    { t: L("Levels measure scope, not years.", "سطح شما بر اساس دامنه‌ی مسئولیت تعیین می‌شود."),
+      b: L("Scope, autonomy, ambiguity, time horizon and leverage define a level. Years of experience and team size are weak proxies.", "دامنه‌ی مسئولیت و اثرگذاری، میزان استقلال، ابهام مسائل، افق زمانی و توان گسترش اثر کارتان تعیین می‌کنند در چه سطحی عمل می‌کنید. سابقه و تعداد اعضای تیم به‌تنهایی برای تعیین سطح کافی نیستند.") },
+    { t: L("You are promoted for the level you already operate at.", "پیش از ارتقا، در سطح بعد عمل می‌کنید."),
+      b: L("Committees look for sustained next-level evidence — usually two quarters or more. Doing your current level very well is necessary, not sufficient.", "برای ارتقا باید شواهدی از عملکرد مستمر در سطح بعد داشته باشید، معمولاً برای دو فصل یا بیشتر. عملکرد خوب در سطح فعلی هم لازم است، اما به‌تنهایی آمادگی شما برای سطح بعد را نشان نمی‌دهد.") },
+    { t: L("Your floor matters more than your peak.", "عملکرد مستمر شما در همه‌ی ابعاد بررسی می‌شود."),
+      b: L("Promotion cases are judged across every dimension. One brilliant dimension rarely makes up for a weak one.", "ضعف در یک بُعد می‌تواند مانع ارتقا شود، حتی اگر در بُعد دیگری عملکرد بسیار خوبی داشته باشید.") },
+    { t: L("Your hiring level sets your trajectory.", "سطح استخدام بر مسیر رشد بعدی شما اثر دارد."),
+      b: L("Getting the right level at hire takes weeks; earning it back through promotion takes years. Settle the level before the salary.", "هنگام استخدام، پیش از مذاکره درباره‌ی حقوق بر سر سطح توافق کنید. تعیین سطح مناسب در این مرحله چند هفته زمان می‌برد، در حالی که رسیدن به همان سطح از مسیر ارتقای داخلی ممکن است چند سال طول بکشد."),
       src: L("After Will Larson and levels.fyi's negotiation guides", "برگرفته از Will Larson و راهنماهای مذاکره‌ی levels.fyi") }
   ];
 

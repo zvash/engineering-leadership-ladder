@@ -161,7 +161,7 @@
       var ta = document.createElement("textarea");
       ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
       document.body.appendChild(ta); ta.select();
-      try { document.execCommand("copy"); done(); } catch (e) { G.toast(G.isFa() ? "کپی ممکن نشد؛ متن را دستی انتخاب کنید" : "Copy failed — select the text manually"); }
+      try { document.execCommand("copy"); done(); } catch (e) { G.toast(G.isFa() ? "کپی ممکن نشد. متن را دستی انتخاب کنید" : "Copy failed — select the text manually"); }
       ta.remove();
     };
     try {

@@ -12,20 +12,20 @@
     title: L("The landscape in 2026", "چشم‌انداز ۲۰۲۶"),
     lede: L(
       "Between 2023 and 2026 the industry removed management layers, widened spans and began to expect AI fluency from everyone. Here is what happened, what it means at each level, and how to stay valuable.",
-      "میان سال‌های ۲۰۲۳ تا ۲۰۲۶، صنعت لایه‌های مدیریتی را کاهش داد، دامنه‌ی کنترل را گسترش داد و تسلط بر هوش مصنوعی را از همه انتظار کشید. در این صفحه می‌بینید چه اتفاقی افتاد، معنای آن برای هر سطح چیست و چگونه ارزشمند بمانید.",
+      "بین سال‌های ۲۰۲۳ و ۲۰۲۶، شرکت‌های فناوری لایه‌های مدیریتی را کاهش دادند، تعداد direct reportها را بیشتر کردند و تسلط بر هوش مصنوعی را به انتظاری عمومی تبدیل کردند. این صفحه رویدادها، پیامد آن‌ها برای هر سطح و راه‌های حفظ اثرگذاری شما را بررسی می‌کند.",
     ),
     tldr: [
       L(
         "**Fewer, wider management seats.** Removing layers became the standard framing of large layoffs.",
-        "**صندلی‌های مدیریتی کمتر و بزرگ‌تر.** حذف لایه‌های مدیریتی به توجیه رایج تعدیل‌های بزرگ تبدیل شد.",
+        "**نقش‌های مدیریتی کمتر، با مسئولیت گسترده‌تر.** کاهش لایه‌های مدیریتی به یکی از دلایل رایج اعلام‌شده برای تعدیل‌های گسترده تبدیل شد.",
       ),
       L(
         "**AI use became a measured expectation**, and coordination-only work is the first to be cut.",
-        "**استفاده از هوش مصنوعی به انتظاری سنجیدنی تبدیل شد** و کار صرفاً هماهنگی، اولین کاری است که حذف می‌شود.",
+        "**استفاده‌ی مؤثر از هوش مصنوعی قابل سنجش شد** و نقش‌هایی که صرفاً هماهنگی می‌کنند، زودتر حذف می‌شوند.",
       ),
       L(
         "Managers are under strain: Gallup's global **manager engagement fell to 22%** in 2025.",
-        "مدیران تحت فشارند: طبق Gallup، **تعلق شغلی مدیران** در جهان در سال ۲۰۲۵ به **۲۲٪** رسید.",
+        "طبق Gallup، **تعلق شغلی مدیران** در جهان در سال ۲۰۲۵ به **۲۲٪** رسید که نشان‌دهنده‌ی افزایش فشار بر آن‌هاست.",
       ),
     ],
     jump: [
@@ -38,7 +38,7 @@
     numbersTitle: L("Key numbers", "اعداد کلیدی"),
     timelineTitle: L(
       "What happened, 2023–2026",
-      "چه اتفاقی افتاد؛ ۲۰۲۳ تا ۲۰۲۶",
+      "چه اتفاقی افتاد، ۲۰۲۳ تا ۲۰۲۶",
     ),
     timelineIntro: L(
       "Dated events with sources. Items marked as reported come from press or secondary write-ups.",
@@ -53,7 +53,7 @@
     reported: L("reported", "گزارش‌شده"),
     chartsTitle: L(
       "Two charts worth knowing",
-      "دو نمودار که ارزش دانستن دارند",
+      "دو نمودار برای شناخت روندها",
     ),
     engTitle: L(
       "Managers are losing engagement faster than everyone else",
@@ -61,32 +61,32 @@
     ),
     engSub: L(
       "Share of employees engaged at work, worldwide, by data year",
-      "درصد کارکنان درگیر و متعهد در کار، در سطح جهان، بر اساس سال داده",
+      "درصد کارکنان دارای تعلق شغلی در جهان، بر اساس سال گردآوری داده‌ها",
     ),
     engCap: L(
       "Source: Gallup, State of the Global Workplace (2023–2026 reports). The 2022 manager value is derived from Gallup's reported nine-point drop since 2022. When managers disengage, their teams follow — Gallup attributes at least 70% of the variance in team engagement to the manager.",
-      "منبع: Gallup، گزارش‌های State of the Global Workplace (۲۰۲۳ تا ۲۰۲۶). مقدار سال ۲۰۲۲ برای مدیران از افت نُه‌واحدی گزارش‌شده توسط Gallup از سال ۲۰۲۲ استخراج شده است. وقتی تعلق شغلی مدیران کم می‌شود، تیم‌هایشان هم به دنبال آن می‌روند؛ Gallup دست‌کم ۷۰٪ از تغییرات تعلق شغلی تیم را به مدیر نسبت می‌دهد.",
+      "منبع: گزارش‌های State of the Global Workplace از Gallup (۲۰۲۳ تا ۲۰۲۶). مقدار سال ۲۰۲۲ برای مدیران، از افت نُه واحد درصدیِ گزارش‌شده نسبت به آن سال محاسبه شده است. کاهش تعلق شغلی مدیران بر تیم‌هایشان هم اثر می‌گذارد. Gallup دست‌کم ۷۰٪ از تفاوت تعلق شغلی میان تیم‌ها را به مدیر نسبت می‌دهد.",
     ),
     managers: L("Managers", "مدیران"),
     everyone: L("All employees", "همه‌ی کارکنان"),
     year: L("Data year", "سال داده"),
     doraTitle: L(
       "AI is an amplifier, not a fix",
-      "هوش مصنوعی تقویت‌کننده است، نه راه‌حل",
+      "اثر هوش مصنوعی به وضعیت فعلی تیم بستگی دارد",
     ),
     doraSub: L(
       "Estimated change associated with a 25% increase in AI adoption (DORA 2024)",
-      "تغییر برآوردشده همراه با ۲۵٪ افزایش در به‌کارگیری هوش مصنوعی (DORA ۲۰۲۴)",
+      "تغییر برآوردشده‌ی شاخص‌ها در ارتباط با ۲۵٪ افزایش به‌کارگیری هوش مصنوعی (DORA ۲۰۲۴)",
     ),
     doraCap: L(
       "Source: DORA, Accelerate State of DevOps 2024. In 2025 DORA reported that about 90% of developers use AI at work and that AI now correlates positively with throughput but still negatively with stability: it magnifies a team's existing strengths and weaknesses.",
-      "منبع: DORA، گزارش Accelerate State of DevOps ۲۰۲۴. DORA در سال ۲۰۲۵ گزارش داد حدود ۹۰٪ توسعه‌دهندگان در کار از هوش مصنوعی استفاده می‌کنند و هوش مصنوعی اکنون با توان عملیاتی رابطه‌ی مثبت، اما همچنان با پایداری رابطه‌ی منفی دارد: نقاط قوت و ضعف موجود تیم را بزرگ‌تر می‌کند.",
+      "منبع: گزارش Accelerate State of DevOps ۲۰۲۴ از DORA. در گزارش ۲۰۲۵، حدود ۹۰٪ توسعه‌دهندگان در کار از هوش مصنوعی استفاده می‌کنند. رابطه‌ی استفاده از هوش مصنوعی با توان عملیاتی مثبت شده، اما رابطه‌ی آن با پایداری همچنان منفی است. هوش مصنوعی نقاط قوت و ضعف موجود تیم را تشدید می‌کند.",
     ),
     meansTitle: L("What it means for you", "معنای آن برای شما"),
     valuableTitle: L("How to stay valuable", "چگونه ارزشمند بمانیم"),
     caveat: L(
       "Evidence is thinner than the headlines. Several figures come from press reports or single sources, and Gartner's number is a forecast. Read the trend as thinning and reshaping, not disappearance — and date-stamp any claim you repeat.",
-      "شواهد از تیترها کم‌رنگ‌ترند. چند عدد از گزارش‌های رسانه‌ای یا منابع واحد آمده‌اند و عدد Gartner یک پیش‌بینی است. این روند را «کم‌شدن و تغییر شکل» بخوانید، نه «حذف شدن»؛ و هر ادعایی را که تکرار می‌کنید با تاریخ بیان کنید.",
+      "میزان اطمینان به شواهد این رویدادها یکسان نیست. برخی اعداد از گزارش‌های رسانه‌ای یا یک منبع واحد آمده‌اند و عدد Gartner پیش‌بینی است. برای توضیح روند کاهش و تغییر نقش‌های مدیریتی، تاریخ و نوع منبع هر ادعا را هم ذکر کنید.",
     ),
     next: L("Back to the start", "بازگشت به صفحه‌ی اول"),
   };
@@ -96,7 +96,7 @@
       v: L("35%", "۳۵٪"),
       l: L(
         "fewer Google managers with fewer than three reports than a year earlier",
-        "کاهش مدیران گوگل با کمتر از سه نفر زیرمجموعه، نسبت به یک سال قبل",
+        "کاهش تعداد مدیران Google با کمتر از سه direct report، نسبت به یک سال قبل",
       ),
       s: L("Company all-hands, Aug 2025", "جلسه‌ی عمومی شرکت، اوت ۲۰۲۵"),
     },
@@ -131,7 +131,7 @@
       v: L("22%", "۲۲٪"),
       l: L(
         "of managers worldwide were engaged in 2025, down from 30% in 2023",
-        "از مدیران در جهان در سال ۲۰۲۵ درگیر و متعهد بودند؛ در مقایسه با ۳۰٪ در ۲۰۲۳",
+        "از مدیران جهان در سال ۲۰۲۵ تعلق شغلی داشتند، در مقایسه با ۳۰٪ در ۲۰۲۳",
       ),
       s: L("Gallup, 2026 report", "Gallup، گزارش ۲۰۲۶"),
     },
@@ -146,7 +146,7 @@
       t: L('Meta\'s "Year of Efficiency"', "«سال کارایی» در Meta"),
       b: L(
         "A flatter structure: layers of management removed, many managers asked to become ICs, and roughly 10,000 roles cut.",
-        "ساختاری تخت‌تر: حذف چند لایه‌ی مدیریتی، درخواست از بسیاری از مدیران برای بازگشت به نقش IC و حذف حدود ۱۰ هزار موقعیت.",
+        "کاهش لایه‌های سازمانی: حذف چند لایه‌ی مدیریتی، درخواست از بسیاری از مدیران برای بازگشت به نقش IC و حذف حدود ۱۰ هزار موقعیت شغلی.",
       ),
       s: "about.fb.com · SEC exhibit",
     },
@@ -160,7 +160,7 @@
       ),
       b: L(
         "Live Data Technologies put middle managers at about 32% of 2023 layoffs, up from about 20% in 2019.",
-        "Live Data Technologies سهم مدیران میانی از تعدیل‌های ۲۰۲۳ را حدود ۳۲٪ برآورد کرد؛ در مقایسه با حدود ۲۰٪ در سال ۲۰۱۹.",
+        "Live Data Technologies سهم مدیران میانی از تعدیل‌های ۲۰۲۳ را حدود ۳۲٪ برآورد کرد، در مقایسه با حدود ۲۰٪ در سال ۲۰۱۹.",
       ),
       s: "Entrepreneur (secondary)",
     },
@@ -174,7 +174,7 @@
       ),
       b: L(
         "The CEO asked every org to raise the ratio by the end of Q1 2025, remove layers, and report unnecessary process to a new 'bureaucracy mailbox'.",
-        "مدیرعامل از همه‌ی واحدها خواست تا پایان فصل اول ۲۰۲۵ این نسبت را افزایش دهند، لایه‌ها را حذف کنند و فرآیندهای غیرضروری را به یک «صندوق بوروکراسی» گزارش دهند.",
+        "مدیرعامل از همه‌ی واحدها خواست تا پایان فصل اول ۲۰۲۵ این نسبت را افزایش دهند، لایه‌های مدیریتی را کم کنند و فرآیندهای غیرضروری را از طریق «صندوق بوروکراسی» گزارش دهند.",
       ),
       s: "aboutamazon.com",
     },
@@ -187,7 +187,7 @@
       ),
       b: L(
         "Through 2026, 20% of organisations will use AI to flatten their structure, cutting more than half of current middle-management roles — while warning of overloaded managers and broken junior mentoring.",
-        "تا پایان ۲۰۲۶، ۲۰٪ سازمان‌ها با هوش مصنوعی ساختار خود را تخت‌تر می‌کنند و بیش از نیمی از موقعیت‌های مدیریت میانی فعلی را حذف می‌کنند؛ همراه با هشدار درباره‌ی فشار بیش از حد بر مدیران و آسیب به mentorship نیروهای تازه‌کار.",
+        "Gartner پیش‌بینی کرد تا پایان ۲۰۲۶، ۲۰٪ سازمان‌ها با کمک هوش مصنوعی لایه‌های ساختار خود را کاهش می‌دهند و بیش از نیمی از موقعیت‌های فعلی مدیریت میانی را حذف می‌کنند. این پیش‌بینی با هشدار درباره‌ی فشار بیش از حد بر مدیران و آسیب به mentorship نیروهای تازه‌کار همراه بود.",
       ),
       s: "gartner.com",
     },
@@ -210,7 +210,7 @@
       major: true,
       t: L(
         "Shopify: reflexive AI use is a baseline expectation",
-        "Shopify: استفاده‌ی بی‌درنگ از هوش مصنوعی، انتظار پایه است",
+        "Shopify: استفاده‌ی مستمر از هوش مصنوعی، بخشی از انتظارات پایه است",
       ),
       b: L(
         "The CEO's memo said AI use would be part of performance reviews, and teams must show why AI cannot do the work before asking for more headcount.",
@@ -224,7 +224,7 @@
       t: L('Duolingo goes "AI-first"', "Duolingo «هوش مصنوعی‌محور» می‌شود"),
       b: L(
         "AI use to weigh in hiring and reviews, and headcount only after automating what can be automated. The company softened its stance about a month later after backlash.",
-        "استفاده از هوش مصنوعی در جذب و ارزیابی وزن پیدا کرد و headcount فقط پس از خودکارسازی کارهای قابل خودکارسازی. شرکت حدود یک ماه بعد، پس از واکنش‌های منفی، موضعش را تعدیل کرد.",
+        "استفاده از هوش مصنوعی در جذب و ارزیابی اهمیت بیشتری پیدا کرد و افزایش headcount به خودکارسازی کارهای قابل خودکارسازی مشروط شد. شرکت حدود یک ماه بعد، در پی واکنش‌های منفی، موضعش را تعدیل کرد.",
       ),
       s: "Entrepreneur",
     },
@@ -238,7 +238,7 @@
       ),
       b: L(
         "Leadership framed the year's cuts as reducing management layers and widening spans.",
-        "مدیران ارشد تعدیل‌های آن سال را کاهش لایه‌های مدیریتی و گسترش دامنه‌ی کنترل توصیف کردند.",
+        "مدیران ارشد، تعدیل‌های آن سال را با کاهش لایه‌های مدیریتی و افزایش تعداد direct reportها توضیح دادند.",
       ),
       s: "Business Insider (reported)",
     },
@@ -291,7 +291,7 @@
       ),
       b: L(
         "More than 25,000 jobs; secondary coverage reported that about half of management layers were removed.",
-        "بیش از ۲۵ هزار شغل؛ منابع ثانویه گزارش دادند حدود نیمی از لایه‌های مدیریتی حذف شد.",
+        "بیش از ۲۵ هزار شغل. منابع ثانویه گزارش دادند حدود نیمی از لایه‌های مدیریتی حذف شد.",
       ),
       s: "Fortune · Calcalist (layers, secondary)",
     },
@@ -305,7 +305,7 @@
       ),
       b: L(
         "Google said it had 35% fewer managers with fewer than three reports than a year before; many moved into IC roles.",
-        "گوگل اعلام کرد نسبت به یک سال قبل، ۳۵٪ مدیر کمتر با کمتر از سه نفر زیرمجموعه دارد؛ بسیاری از آن‌ها به نقش IC منتقل شدند.",
+        "Google اعلام کرد تعداد مدیران دارای کمتر از سه direct report، نسبت به یک سال قبل ۳۵٪ کاهش یافته است. بسیاری از آن‌ها به نقش IC منتقل شدند.",
       ),
       s: "NBC News",
     },
@@ -358,7 +358,7 @@
       ),
       b: L(
         "About 30,000 corporate roles since October, framed as reducing layers and increasing ownership.",
-        "حدود ۳۰ هزار موقعیت ستادی از اکتبر به بعد؛ با عنوان کاهش لایه‌ها و افزایش مالکیت.",
+        "از اکتبر به بعد، حدود ۳۰ هزار موقعیت ستادی حذف شد، با هدف اعلام‌شده‌ی کاهش لایه‌ها و تقویت ownership.",
       ),
       s: "TechCrunch",
     },
@@ -371,7 +371,7 @@
       ),
       b: L(
         "Nearly half of its staff, with AI tools cited as enabling smaller, flatter teams.",
-        "نزدیک به نیمی از کارکنانش؛ با این استدلال که ابزارهای هوش مصنوعی امکان تیم‌های کوچک‌تر و تخت‌تر را فراهم می‌کنند.",
+        "نزدیک به نیمی از کارکنان، با این استدلال که ابزارهای هوش مصنوعی امکان کار با تیم‌های کوچک‌تر و لایه‌های سازمانی کمتر را فراهم می‌کنند.",
       ),
       s: "TechCrunch",
     },
@@ -385,7 +385,7 @@
       ),
       b: L(
         "A new applied-AI engineering group was reportedly designed around very wide spans.",
-        "طبق گزارش‌ها، یک گروه مهندسی جدید هوش مصنوعی کاربردی بر پایه‌ی دامنه‌های کنترل بسیار گسترده طراحی شد.",
+        "طبق گزارش‌ها، ساختار یک گروه مهندسی جدید در حوزه‌ی هوش مصنوعی کاربردی، با تعداد بسیار زیاد direct report به ازای هر مدیر طراحی شد.",
       ),
       s: "Fortune, citing WSJ",
     },
@@ -399,7 +399,7 @@
       ),
       b: L(
         "Global engagement fell for a second year, to 20%; managers dropped fastest, and reported more daily stress than ICs.",
-        "تعلق شغلی جهانی برای دومین سال پیاپی کاهش یافت و به ۲۰٪ رسید؛ مدیران بیشترین افت را داشتند و استرس روزانه‌ی بیشتری نسبت به ICها گزارش کردند.",
+        "تعلق شغلی کارکنان در جهان، برای دومین سال پیاپی کاهش یافت و به ۲۰٪ رسید. مدیران بیشترین افت را داشتند و استرس روزانه‌ی بیشتری نسبت به ICها گزارش کردند.",
       ),
       s: "gallup.com",
     },
@@ -412,7 +412,7 @@
       ),
       b: L(
         "Coinbase cut about 14% of staff and flattened to five layers below the CEO; PayPal cited removing organisational layers the same day.",
-        "Coinbase حدود ۱۴٪ کارکنانش را کاهش داد و ساختارش را به پنج لایه زیر مدیرعامل رساند؛ PayPal هم در همان روز به حذف لایه‌های سازمانی استناد کرد.",
+        "Coinbase حدود ۱۴٪ کارکنانش را کاهش داد و ساختارش را به پنج لایه زیر مدیرعامل رساند. PayPal هم در همان روز به حذف لایه‌های سازمانی استناد کرد.",
       ),
       s: "TechCrunch",
     },
@@ -421,11 +421,11 @@
       c: "ai",
       t: L(
         "Cloudflare cuts about 20%, keeping builders",
-        "Cloudflare حدود ۲۰٪ را کاهش می‌دهد و «سازندگان» را نگه می‌دارد",
+        "Cloudflare حدود ۲۰٪ کارکنان را تعدیل می‌کند و نقش‌های سازنده را حفظ می‌کند",
       ),
       b: L(
         "The CEO described cutting roles that mainly measure and report — including middle management — rather than roles that build.",
-        "مدیرعامل توضیح داد نقش‌هایی حذف شده‌اند که عمدتاً اندازه‌گیری و گزارش می‌کنند (از جمله مدیریت میانی)، نه نقش‌هایی که می‌سازند.",
+        "مدیرعامل توضیح داد نقش‌هایی که عمدتاً به اندازه‌گیری و گزارش‌دهی می‌پرداختند، از جمله مدیریت میانی، حذف شده‌اند. نقش‌هایی که مستقیماً محصول و سیستم می‌سازند حفظ شده‌اند.",
       ),
       s: "TechCrunch",
     },
@@ -438,7 +438,7 @@
       ),
       b: L(
         "About 14% of staff cut, management layers flattened, and the organisation rebuilt around AI-agent workloads.",
-        "حدود ۱۴٪ کارکنان کاهش یافت، لایه‌های مدیریتی تخت‌تر شد و سازمان حول بار کاری agentهای هوش مصنوعی بازسازی شد.",
+        "حدود ۱۴٪ کارکنان تعدیل شدند، لایه‌های مدیریتی کاهش یافت و ساختار سازمان متناسب با بار کاری agentهای هوش مصنوعی تغییر کرد.",
       ),
       s: "TechCrunch",
     },
@@ -451,7 +451,7 @@
       ),
       b: L(
         "Korn Ferry's survey of 15,000 professionals; the manager role is shifting from relaying information to judgment and mentoring.",
-        "نظرسنجی Korn Ferry از ۱۵ هزار متخصص؛ نقش مدیر از انتقال اطلاعات به سمت قضاوت و mentorship در حال تغییر است.",
+        "نظرسنجی Korn Ferry از ۱۵ هزار متخصص. نقش مدیر از انتقال اطلاعات به سمت قضاوت و mentorship در حال تغییر است.",
       ),
       s: "Fortune",
     },
@@ -478,37 +478,37 @@
       items: [
         L(
           "Management is a scarcer step. Keep a Staff track open as a real option.",
-          "مدیریت پله‌ی کمیاب‌تری شده است. مسیر Staff را به عنوان یک گزینه‌ی واقعی باز نگه دارید.",
+          "فرصت‌های ورود به مدیریت کمتر شده‌اند. مسیر Staff را به عنوان گزینه‌ای جدی برای رشد در نظر داشته باشید.",
         ),
         L(
           "Tech-lead scope grows as managers' spans widen — step into it.",
-          "با گسترش دامنه‌ی کنترل مدیران، دامنه‌ی نقش راهبر فنی بزرگ‌تر می‌شود؛ آن را بر عهده بگیرید.",
+          "با افزایش تعداد direct reportهای مدیران، مسئولیت راهبران فنی گسترده‌تر می‌شود. برای پذیرفتن آن آماده شوید.",
         ),
         L(
           "Find mentors outside your reporting line; wider spans mean less manager time each.",
-          "mentorهایی بیرون از زنجیره‌ی گزارش‌دهی خود پیدا کنید؛ دامنه‌ی کنترل وسیع‌تر یعنی زمان کمتر مدیر برای هر نفر.",
+          "mentorهایی بیرون از زنجیره‌ی مدیریتی خود پیدا کنید. هرچه تعداد direct reportها بیشتر باشد، مدیر برای هر فرد وقت کمتری دارد.",
         ),
         L(
           "Show AI-assisted outcomes, not usage counts.",
-          "نتایج به‌دست‌آمده با کمک هوش مصنوعی را نشان دهید، نه آمار استفاده را.",
+          "اثر استفاده از هوش مصنوعی را بر نتایج کار نشان دهید و به گزارش آمار استفاده اکتفا نکنید.",
         ),
       ],
     },
     {
       id: "em",
-      n: L("First-line EMs", "مدیران خط اول"),
+      n: L("First-line EMs", "مدیران مستقیم تیم"),
       items: [
         L(
           "Plan for larger spans: invest in tech leads, written decision rights and peer mentoring.",
-          "برای دامنه‌ی کنترل بزرگ‌تر برنامه‌ریزی کنید: روی راهبران فنی، حدود تصمیم‌گیری مکتوب و mentorship میان هم‌تایان سرمایه‌گذاری کنید.",
+          "برای تعداد بیشتر direct reportها آماده شوید: روی راهبران فنی، حدود تصمیم‌گیری مکتوب و mentorship میان همتایان سرمایه‌گذاری کنید.",
         ),
         L(
           "Keep technical judgment and delivery ownership visible — status relay is what gets cut.",
-          "قضاوت فنی و مالکیت delivery را قابل مشاهده نگه دارید؛ آن‌چه حذف می‌شود، انتقال گزارش وضعیت است.",
+          "توان قضاوت فنی و مسئولیت خود در delivery را نشان دهید. نقش‌هایی که فقط گزارش وضعیت را منتقل می‌کنند بیشتر در معرض حذف‌اند.",
         ),
         L(
           "Expect 'why not AI?' headcount gates, and assess AI use fairly in reviews.",
-          "منتظر پرسش «چرا هوش مصنوعی نه؟» در درخواست‌های headcount باشید و استفاده از هوش مصنوعی را در ارزیابی‌ها منصفانه بسنجید.",
+          "در درخواست headcount، آماده باشید توضیح دهید چرا هوش مصنوعی پاسخ‌گوی نیاز نیست. در ارزیابی عملکرد هم استفاده از آن را منصفانه بسنجید.",
         ),
       ],
     },
@@ -518,11 +518,11 @@
       items: [
         L(
           "The layer between director and EM is the easiest to compress. Justify it through decisions, org design and the leaders you grow.",
-          "لایه‌ی میان Director و EM ساده‌ترین لایه برای حذف است. وجودش را با تصمیم‌ها، طراحی سازمان و رهبرانی که پرورش می‌دهید توجیه کنید.",
+          "لایه‌ی میان Director و EM بیشتر در معرض حذف است. اثر آن را در تصمیم‌گیری، طراحی سازمان و پرورش راهبران نشان دهید.",
         ),
         L(
           "Watch manager load and junior mentoring — the two things wider spans break first.",
-          "بار کاری مدیران و mentorship تازه‌کارها را پایش کنید؛ این دو اولین چیزهایی هستند که با دامنه‌ی وسیع‌تر آسیب می‌بینند.",
+          "بار کاری مدیران و کیفیت mentorship تازه‌کارها را پایش کنید. با افزایش تعداد direct reportها، این دو زودتر آسیب می‌بینند.",
         ),
         L(
           "Calibrate AI expectations consistently across teams.",
@@ -536,7 +536,7 @@
       items: [
         L(
           "Make investment cases in return, not headcount.",
-          "پرونده‌های سرمایه‌گذاری را بر اساس آورده بسازید، نه headcount.",
+          "در توجیه سرمایه‌گذاری، بازده مورد انتظار را مبنا قرار دهید و نیاز به headcount را با آن توضیح دهید.",
         ),
         L(
           "Design orgs with fewer layers, strong senior ICs and clear ownership.",
@@ -544,7 +544,7 @@
         ),
         L(
           "Protect the leadership pipeline: fewer manager seats means fewer places to practise leading.",
-          "از مسیر پرورش رهبران محافظت کنید: صندلی‌های مدیریتی کمتر یعنی فرصت کمتر برای تمرین راهبری.",
+          "با کاهش فرصت‌های مدیریتی، فرصت تمرین راهبری هم کمتر می‌شود. برای پرورش راهبران بعدی برنامه داشته باشید.",
         ),
       ],
     },
@@ -553,27 +553,27 @@
   var VALUABLE = [
     L(
       "**Own outcomes, not updates.** Be the person who decides and delivers, not the one who relays.",
-      "**مالک نتیجه باشید، نه گزارش.** کسی باشید که تصمیم می‌گیرد و deliver می‌کند، نه کسی که پیام منتقل می‌کند.",
+      "**مسئولیت نتیجه‌ی کار را بپذیرید.** در تصمیم‌گیری و delivery نقش داشته باشید و کار خود را به انتقال گزارش‌ها محدود نکنید.",
     ),
     L(
       "**Stay technically current,** including AI-assisted workflows; review designs and incidents yourself.",
-      "**از نظر فنی به‌روز بمانید؛** از جمله در شیوه‌های کار با کمک هوش مصنوعی. طراحی‌ها و incidentها را خودتان بررسی کنید.",
+      "**دانش فنی خود را به‌روز نگه دارید،** از جمله در شیوه‌های کار با کمک هوش مصنوعی. در بررسی طراحی‌ها و incidentها مشارکت کنید.",
     ),
     L(
       "**Grow leaders who run things without you** — the clearest proof of leverage.",
-      "**رهبرانی پرورش دهید که بدون شما کارها را پیش ببرند؛** روشن‌ترین اثبات اهرم اثرگذاری.",
+      "**راهبرانی پرورش دهید که مستقل کار را پیش ببرند.** استقلال آن‌ها نشان می‌دهد می‌توانید دامنه‌ی اثر خود را گسترش دهید.",
     ),
     L(
       "**Write.** Strategy docs, decision records and business cases travel further than meetings.",
-      "**بنویسید.** اسناد استراتژی، سوابق تصمیم و پرونده‌های کسب‌وکاری از جلسات فراتر می‌روند.",
+      "**استراتژی و تصمیم‌ها را مکتوب کنید.** سند استراتژی، سوابق تصمیم‌ها و پرونده‌های کسب‌وکاری کمک می‌کنند اثر تصمیم‌ها پس از جلسه هم قابل پیگیری باشد و ادامه پیدا کند.",
     ),
     L(
       "**Measure what matters** — delivery, engagement, business results — and speak about it in business terms.",
-      "**آن‌چه مهم است را بسنجید** (delivery، تعلق شغلی، نتایج کسب‌وکاری) و به زبان کسب‌وکار درباره‌اش صحبت کنید.",
+      "**نتایج delivery، تعلق شغلی و اثر کسب‌وکاری را بسنجید** و هنگام توضیح آن‌ها، ارتباطشان با اهداف کسب‌وکار را روشن کنید.",
     ),
     L(
       "**Build relationships across functions.** Influence beyond your reporting line is the scarcest skill.",
-      "**روابط میان‌وظیفه‌ای بسازید.** اثرگذاری فراتر از زنجیره‌ی گزارش‌دهی، کمیاب‌ترین مهارت است.",
+      "**با همکاران cross-functional رابطه بسازید.** اثرگذاری بیرون از زنجیره‌ی مدیریتی، مهارتی کمیاب است.",
     ),
   ];
 
