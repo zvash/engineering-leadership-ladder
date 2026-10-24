@@ -1051,11 +1051,11 @@
       evidence: [
         L(
           "A cross-team initiative with a measurable business outcome",
-          "یک ابتکار فراتیمی با نتیجه‌ی کسب‌وکاری قابل اندازه‌گیری",
+          "یک initiative در سطح چند تیم را با اثری قابل‌اندازه‌گیری به نتیجه رسانده‌اید و در کارنامه‌ی خود دارید",
         ),
         L(
           "A strategy document your teams actually use",
-          "یک سند استراتژی که تیم‌ها واقعاً از آن استفاده می‌کنند",
+          "سند استراتژی‌ای نوشته‌اید که واقعا در تیم‌هایتان استفاده می‌شود",
         ),
         L(
           "A new manager or tech lead you grew",

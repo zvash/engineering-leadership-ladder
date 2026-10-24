@@ -87,7 +87,7 @@
     glanceTitle: L("All levels at a glance", "همه‌ی سطوح در یک نگاه"),
     glanceIntro: L(
       "One line per dimension. Open a level above for the full expectations.",
-      "برای هر بُعد، یک سطر آمده است. برای دیدن انتظارات کامل، سطح مورد نظر را در بالا باز کنید.",
+      "انتظارات مربوط به هر بعد را به صورت خلاصه در ادامه مشاهده می‌کنید. برای دیدن جزئیات بیشتر، سطح مورد نظر را در بالای صفحه انتخاب کنید.",
     ),
     rowQuestion: L("Core question", "پرسش محوری"),
     rowHands: L("Hands-on technical", "کار فنی مستقیم"),
@@ -151,7 +151,7 @@
     M5: [
       L(
         "Own a department's portfolio and its success",
-        "مالکیت سبد و موفقیت یک «بخش»",
+        "مالکیت سبد و موفقیت یک «دپارتمان»",
       ),
       L(
         "Grow managers; guard people processes",
