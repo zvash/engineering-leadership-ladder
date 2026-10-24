@@ -40,7 +40,7 @@
     readTitle: L("How to read the level codes", "کدهای سطح را چگونه بخوانیم"),
     read: L(
       "This guide uses a neutral **reference ladder**: an acting (trial) period and five management levels coded `M2`–`M6`, beside a six-level IC track coded `L3`–`L8`. Companies number levels differently — a first-line manager is typically M1 at Meta, L6 at Google and level 50 at Monzo. [How leveling works](#/map) translates between them.",
-      "این راهنما از یک **نردبان مرجع** مستقل از شرکت‌ها استفاده می‌کند: یک دوره‌ی آزمایشی (acting) و پنج سطح مدیریتی با کدهای `M2` تا `M6`، در کنار مسیر شش‌سطحی IC با کدهای `L3` تا `L8`. شماره‌گذاری سطوح در شرکت‌ها متفاوت است. مثلاً مدیر مستقیم یک تیم در Meta معمولاً M1، در Google سطح L6 و در Monzo سطح ۵۰ است. در صفحه‌ی [سازوکار سطح‌بندی](#/map) می‌توانید معادل این سطوح را پیدا کنید.",
+      "این راهنما برای مقایسه‌ی سطوح، از یک **نردبان مرجع** استفاده می‌کند که به هیچ شرکت خاصی وابسته نیست. این نردبان در مسیر مدیریت، یک دوره‌ی آزمایشی (acting) و پنج سطح با کدهای `M2` تا `M6` دارد. در کنار آن، مسیر IC (مشارکت‌کننده‌ی فردی) هم شش سطح با کدهای `L3` تا `L8` دارد. هر شرکت سطوح خود را به شیوه‌ی متفاوتی شماره‌گذاری می‌کند. برای نمونه، مدیر مستقیم یک تیم در Meta معمولاً در سطح M1 است، در Google در سطح L6 و در Monzo در سطح ۵۰. برای یافتن معادل این سطوح در شرکت‌های مختلف، به صفحه‌ی [سازوکار سطح‌بندی](#/map) مراجعه کنید.",
     ),
     builtTitle: L("What this guide is built on", "مبنای این راهنما چیست؟"),
     built: L(
